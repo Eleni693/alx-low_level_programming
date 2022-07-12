@@ -8,6 +8,7 @@ void rev_string(char *s)
 {
 	int i, c = 0;
 	char *first = s, *last = s, temp;
+
 	while (s[c])
 		c++;
 
